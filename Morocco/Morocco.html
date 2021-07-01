@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <title>Morocco</title>
+    <style type="text/css">
+      .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 205px;
+  height: 100%;
+  width: 44%;
+  opacity: 0;
+  transition: .5s ease;
+background-color:#FF642D;
+border-radius: 5px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+ 
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ff642d;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+    </style>
+   
+  </head>
+  <body>
+  	<nav>
+	    <div class="logo"><img src="MoroccoF.png" >  	
+      </div>
+  	  <ul>
+  		  <li> <a href="#pk">Packages</a></li>
+  		  <li> <a href="#pp">Popular Places</a></li>
+  		  <li> <a href="#wv">Watch Video</a></li>
+          <li> <a href="#nw">News</a></li>
+  		  <li> <a href="#fb">Feedback</a></li>
+  		  <li> <a href="#rt">Rate</a></li>
+  	  </ul>
+    </nav>
+	  <div class="sections">
+			<div style="border: 0; height: 600px; width:100%;background:white;" id="pk">
+			  <h2> Packages</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="container">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="a-block w-40" src="marrakesh.jpg" alt="First slide">
+              <div class="overlay">
+                <div class="text">
+                  <h3>Marrakesh</h3>
+                  <p>Wazo hotel offer the best prices in marrakesh with 727EGP per night</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="a-block w-40" src="cassablanca.jpg" alt="Second slide">
+              <div class="overlay">
+                <div class="text">
+                 <h3>Casablanca</h3>
+                 <p>Radisson Blu offers a 5 days, 4 nights with 7400EGP.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="a-block w-40" src="Meknes.jpg" alt="Third slide">
+               <div class="overlay">
+                <div class="text">
+                 <h3>Meknes</h3>
+                 <p>Swani hotel offer a 672EGP per night.</p>
+                </div>
+              </div>
+            </div>
+              <div class="carousel-item">
+              <img class="a-block w-40" src="Rabar.jpg" alt="Forth slide">
+               <div class="overlay">
+                <div class="text">
+                 <h3>Rabat</h3>
+                 <p>The view hotel offers 3 days, 2 nights with 10000EGP</p>
+                </div>
+              </div>
+            </div>
+              <div class="carousel-item">
+              <img class="a-block w-40" src="Fez.jpg" alt="Fifth slide">
+               <div class="overlay">
+                <div class="text">
+                 <h3>Fez</h3>
+                 <p>Palais Medina gives 1800EGP per night.</p>
+                </div>
+              </div>
+            </div>
+              <div class="carousel-item">
+              <img class="a-block w-40" src="Tanger_cor.jpg" alt="Sixth slide">
+               <div class="overlay">
+                <div class="text">
+                 <h3>Tanger</h3>
+                 <p>Marina bay with 1649EGP per night offers the best at all.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+          
+	    <div id="pp"  style="background-image: url(back.png);  background-repeat:no-repeat ;align-content: center;width: 100%; height: 600px;">
+		    <h2 style="padding-top: 50px;">Popular Places</h2>
+		    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+          </ol>
+          <div class="container">
+         
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://goo.gl/maps/qR1S2jt2mtZzCPC99">
+              <img class="a-block w-40" src="Hassan II Mosque.jpg" alt="First slide">
+              <div class="overlay">
+                <div class="text">
+                  <h3>Hassan II Mosque</h3>
+                </div>
+              </div>
+            </div>
+          </a>
+            <div class="carousel-item">
+              <a href="https://g.page/babalmansour1?share">
+              <img class="a-block w-40" src="Bab al-Mansour.jpg" alt="Second slide">
+              <div class="overlay">
+                <div class="text">
+                  <h3>Bab al-Mansour</h3>
+                </div>
+              </div>
+            </div>
+            </a>
+            <div class="carousel-item">
+              <img class="a-block w-40" src="Tanger_cor.jpg" alt="Third slide">
+              <a href="https://goo.gl/maps/fSPNRc83ATdXV58N6">
+              <div class="overlay">
+              <div class="text">
+                <h3>Tanger Cor</h3>
+              </div>
+              </div>
+            </div>
+            </a>
+              <div class="carousel-item">
+              <img class="a-block w-40" src="Volubilis.jpg" alt="Forth slide">
+              <a href="https://goo.gl/maps/ZYuGDBG93d4JHd969">
+              <div class="overlay">
+                <div class="text">
+                  <h3> Volubilis </h3>
+                </div>
+              </div>
+            </div>
+          </a>
+              <div class="carousel-item">
+              <img class="a-block w-40" src="Oudaias Kasbah.jpg" alt="Fifth slide">
+              <a href="https://goo.gl/maps/Bbv9UC2krUes5GRP9">
+              <div class="overlay">
+                <div class="text">
+                  <h3> Oudaias Kasbah</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="sections"> 
+	    <div id="wv"style="width: 100%; height: 600px;"class="container">
+        <div class="row">
+          <h1 style="text-align: center;margin-left: 40%;">Watch Video</h1>
+        </div>
+		    <div class="row">
+          <div class="col">
+            <video src="MOROCCO _ Culture of color.mp4" width="100%" autoplay controls ></video>
+          </div>
+          <div class="col" style="text-align: justify;">
+            <h2 style="margin: 0;padding: 0;">Description:</h2>
+            <p style="margin: 0;padding: 0;">
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+              as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages 
+              and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web 
+              sites still in their infancy. Various versions have evolved over the years, sometimes by accident, 
+              sometimes on purpose (injected humour and the like).
+            </p>
+          </div>
+        </div>
+      </div>
+		  </div>
+          <div class="sections">
+			<div id="nw"  style="background-image: url(back.png);  background-repeat:no-repeat ;align-content: center;width: 100%; height: 600px;">
+			  <h2 style="padding-top: 50px;"> News</h2>
+        <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
+          </ol>
+          <div class="container">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://www.breakingtravelnews.com/news/article/mandarin-oriental-marrakech-launches-new-spa-offering/">
+              <img class="a-block w-40" src="newss1.jpeg" alt="First slide">
+              <div class="overlay">
+                <div class="text">
+                  <p>Mandarin Oriental, Marrakech launches new spa offering</p>
+                </div>
+              </div>
+            </div>
+          </a>
+            <div class="carousel-item">
+              <a href="https://www.breakingtravelnews.com/news/article/unwto-prepares-for-morocco-general-assembly/">
+              <img class="a-block w-40" src="newss2.jpeg" alt="Second slide">
+              <div class="overlay">
+                <div class="text">
+                 <p>UNWTO prepares for Morocco general assembly</p>
+                </div>
+              </div>
+            </div>
+          </a>
+            <div class="carousel-item">
+              <a href="https://www.breakingtravelnews.com/news/article/palmeraie-rotana-resort-takes-brand-into-morocco/">
+              <img class="a-block w-40" src="newss3.jpeg" alt="Third slide">
+               <div class="overlay">
+                <div class="text">
+                 <p>Palmeraie Rotana Resort takes brand into Morocco</p>
+                </div>
+              </div>
+            </div>
+          </a>
+              <div class="carousel-item">
+                <a href="https://www.travelinglifestyle.net/morocco-reopening-sept-10th-might-be-delayed-says-government/"></a>
+              <img class="a-block w-40" src="newss4.jpeg" alt="Forth slide">
+              <a href="">
+               <div class="overlay">
+                <div class="text">
+                 <p>MOROCCO IS OPEN FOR TOURISM BUT SUSPENDING FLIGHTS FROM 48 COUNTRIES</p>
+                </div>
+              </div>
+            </div>
+          </a>
+              <div class="carousel-item">
+                <a href="https://blog.wego.com/morocco-travel-restrictions-and-quarantine-requirements/">
+              <img class="a-block w-40" src="newss5.jpeg" alt="Fifth slide">
+               <div class="overlay">
+                <div class="text">
+                 <p>Morocco (Travel Restrictions, COVID Tests & Quarantine Requirements)</p>
+                </div>
+              </div>
+            </div>
+          </a>
+              <div class="carousel-item">
+                <a href="https://www.moroccoworldnews.com/2021/04/340559/moroccan-national-tourism-office-reveals-plans-for-revitalization">
+              <img class="a-block w-40" src="newss6.jpeg" alt="Sixth slide">
+               <div class="overlay">
+                <div class="text">
+                 <p>Moroccan National Tourism Office Reveals Plans for Revitalization</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+		  <div id="fb"style="background-image: url(bg2.png); width: 100%; height: 600px;">
+		    <div class="w3-container w3-content w3-padding-64" style="max-width:800px;" id="contact">
+                <br><br><br>
+          <h2 class="w3-wide w3-center">Feedback</h2>
+          <p class="w3-opacity w3-center" style="color: #FF642D"><i>Drop a note!</i></p>
+          <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+              <i class="fa fa-map-marker" style="width:30px"></i>Alexandria , Egypt<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-phone" style="width:30px"></i> Phone:+20 01555555555<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" style="width:30px"> </i> Email: trippy@gmail.com<br>
+            </div>
+            <div class="w3-col m6">
+              <form action="phpmailer.php" target="_blank" method="POST">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
+                  </div>
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="email">
+                  </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
+                <button class="w3-button w3-section w3-right" type="submit" style="background-color:#ff642d;color: white;">SEND</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+          <center>
+            <h2 style="width: 100%; height: 10px;" id="rt">Rate Us</h2>
+            <div class="rating"> 
+              <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+              <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+              <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+              <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+              <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+            </div>
+          </center>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+	  <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"type="text/javascript"></script>
+    <script src="js/scroll.js"type="text/javascript"></script>
+  </body>
+</html>
