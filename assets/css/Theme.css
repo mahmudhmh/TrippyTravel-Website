@@ -1,0 +1,51 @@
+.service-icon-box,
+.team-social-info a:hover,
+.team-social-info a:focus,
+.testimonial-slide .slick-dots li button::before,
+.testimonial-slide .slick-dots li.slick-active button::before,
+.footer-area a:hover,
+.footer-area a:focus,
+.fuel_mind-left .primary-btn,
+.fuel_mind-left .primary-btn:hover,
+.fuel_mind-left .primary-btn:focus,
+.single-counter i,
+.counter-value {
+	color: #FF642D;
+}
+
+.send-msg-btn:hover,
+.send-msg-btn:focus,
+.services-icon-box,
+.social-media a, 
+.social-media a:hover,
+.social-media a:focus,
+.order-btn:hover,
+.order-btn:focus {
+	border: 2px solid #FF642D;
+	color: #FF642D;
+}
+
+.send-msg-btn {
+	border: 1px solid #FF642D;
+	background-color: #FF642D;
+}
+
+
+#fuel_mind,
+.testimonial-slide .slick-dots li button:hover,
+.testimonial-slide .slick-dots li button:focus,
+.testimonial-slide .slick-dots li.slick-active button,
+.header-dot,
+.author-social a,
+.pricing-content .popular-price-tag,
+#discover-now:before  {
+	background-color: #FF642D;
+}
+
+.contact-form .form-control:focus,
+.testimonial-slide .slick-dots li button:hover,
+.testimonial-slide .slick-dots li button:focus,
+.testimonial-slide .slick-dots li.slick-active button{
+	border: 1px solid #FF642D;    
+} 
+
